@@ -6,8 +6,12 @@ function getFullName(contact) {
 function getProductsPurchased(contact) {
   const purchased = contact.purchased;
 
-  if (!purchased || !purchased.length) {
+  if (!purchased.length) {
     return "No products purchased.";
+  }
+
+  if (purchased.length === 1) {
+    return purchased[0].name;
   }
 
   const result = [];
@@ -17,3 +21,8 @@ function getProductsPurchased(contact) {
 
   return result;
 }
+
+module.exports = {
+  getFullName,
+  getProductsPurchased,
+};
