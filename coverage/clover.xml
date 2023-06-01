@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1685579865390" clover="3.2.0">
+  <project timestamp="1685579865390" name="All files">
+    <metrics statements="12" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1" elements="18" coveredelements="4" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+    <file name="products.js" path="/Users/shanicegriffin/Desktop/Pursuit/starter-test-with-jest/src/products.js">
+      <metrics statements="12" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
